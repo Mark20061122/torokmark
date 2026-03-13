@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Török Márk - Portfólió</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="top-header">
+        <div class="header-side">
+            </div>
+
+        <nav class="top-nav">
+            <div class="dropdown">
+                <button class="dropbtn">11. osztály</button>
+                <div class="dropdown-content">
+                    <a href="11_halozatkez.pdf" target="_blank">Hálózatkezelés</a>
+                    <a href="11_elektro.pdf" target="_blank">Elektronika</a>
+                    <a href="11_digitar.pdf" target="_blank">Digitális áramkörök</a>
+                    <a href="11_adatb.pdf" target="_blank">Adatbázis-kezelés</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">12. osztály</button>
+                <div class="dropdown-content">
+                    <a href="12_mikrovez.pdf" target="_blank">Mikrovezérlő programozás</a>
+                    <a href="12_plc.pdf" target="_blank">PLC programozás</a>
+                    <a href="12_szamszim.pdf" target="_blank">Számítógépes szimuláció</a>
+                    <a href="12_progal.pdf" target="_blank">Programozás alapjai</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">13. osztály</button>
+                <div class="dropdown-content">
+                    <a href="13_progfej.pdf" target="_blank">Programfejlesztés</a>
+                    <a href="13_robottech.pdf" target="_blank">Robottechnika CAD/CAM</a>
+                    <a href="13_iot.pdf" target="_blank">IoT</a>
+                    <a href="13_munkaang.pdf" target="_blank">Munkavállalói angol</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="header-side">
+            <h1 class="user-name">Török Márk</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="card logo-card">
+            <img src="banki logo.jpg" alt="Bánki Logo">
+        </div>
+
+        <section class="card intro-card">
+            <h2>Rövid bemutatkozás</h2>
+            <div class="divider"></div>
+            <p>Üdvözlöm a portfóliómban! Török Márk vagyok, a Dunaújvárosi Egyetem Bánki Donát Technikum tanulója. Ezen a felületen nyomon követhető a szakmai fejlődésem, a tantárgyi eredményeim és a projektjeim.</p>
+            
+            <div class="skills-container">
+                <span class="skill-tag">PLC programozás</span>
+                <span class="skill-tag">Szakmai rajz</span>
+                <span class="skill-tag">Informatika</span>
+                <span class="skill-tag">Csapatmunka</span>
+                <span class="skill-tag">Problémamegoldás</span>
+            </div>
+        </section>
+
+        <div class="card gallery-card" id="galleryBtn">
+            <div class="gallery-icon">📸</div>
+            <h3>Képgaléria</h3>
+            <p>Kattints a megnyitáshoz</p>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>© 2026 Török Márk - Szakmai Portfólió</p>
+            <div class="contact-links">
+                <span>📧 marktorok21@gmail.com</span>
+                <span>📍 Ercsi, Magyarország</span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="galleryModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <div class="modal-content">
+            <button class="nav-btn" onclick="changeImage(-1)">&#10094;</button>
+            <img id="modalImg" src="" alt="Galéria kép">
+            <button class="nav-btn" onclick="changeImage(1)">&#10095;</button>
+        </div>
+        <div id="caption" class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
