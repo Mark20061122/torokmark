@@ -10,8 +10,7 @@
 <body>
 
     <header class="top-header">
-        <div class="header-side">
-            </div>
+        <div class="header-side"></div>
 
         <nav class="top-nav">
             <div class="dropdown">
@@ -88,12 +87,14 @@
 
     <div id="galleryModal" class="modal">
         <span class="close-btn">&times;</span>
-        <div class="modal-content">
-            <button class="nav-btn" onclick="changeImage(-1)">&#10094;</button>
-            <img id="modalImg" src="" alt="Galéria kép">
-            <button class="nav-btn" onclick="changeImage(1)">&#10095;</button>
+        <div class="modal-wrapper">
+            <div class="modal-content">
+                <button class="nav-btn" onclick="changeImage(-1)">&#10094;</button>
+                <img id="modalImg" src="" alt="Galéria kép">
+                <button class="nav-btn" onclick="changeImage(1)">&#10095;</button>
+            </div>
+            <div id="caption" class="caption"></div>
         </div>
-        <div id="caption" class="caption"></div>
     </div>
 
     <script src="script.js"></script>
