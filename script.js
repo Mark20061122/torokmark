@@ -1,52 +1,52 @@
-// Képek a galériához - Mind a 12 feltöltött konzultációs lap
+// Képek a galériához - Mind a 12 egyedi konzultációs lap pontos adatai
 const images = [
     { 
-        src: "mikrovezerlo_2025_tavasz.jpg", 
-        title: "Mikrovezérlő programozás (2025. tavasz) - Tanár: Major Sándor - Feladat: Mikrovezérlő felépítése, Bemeneti és kimeneti elemek használata" 
+        src: "mikrovezerlo_programozas.jpg", 
+        title: "Mikrovezérlő programozás - Tanár: Major Sándor - Feladat: Mikrovezérlő felépítése, Bemeneti és kimeneti elemek használata" 
     },
     { 
-        src: "mikrovezerlo_2025_osz.jpg", 
-        title: "IoT tantárgy (2025. ősz) - Tanár: Major Sándor - Feladat: IoT eszközök kezelése" 
+        src: "programfejlesztes.jpg", 
+        title: "Programfejlesztés - Tanár: Major Sándor - Feladat: Eseményvezérelt, grafikus felhasználói felületű alkalmazást készít" 
     },
     { 
-        src: "adatbazis_2024.jpg", 
-        title: "Adatbáziskezelés alapjai (2024) - Tanár: Major Sándor - Feladat: Egyszerű relációs adatbázist tervez" 
+        src: "plc_programozas.jpg", 
+        title: "PLC programozás - Tanár: Horváth Ferenc - Feladat: Ismeri a különböző típusú PLC-k jellemzőit" 
     },
     { 
-        src: "halozatkezeles_2025.jpg", 
-        title: "Hálózatkezelés (2025) - Tanár: Major Sándor - Feladat: Elkészíti egy hálózat címzési tervét" 
+        src: "iot_tantargy.jpg", 
+        title: "IoT tantárgy - Tanár: Major Sándor - Feladat: IoT eszközök kezelése" 
     },
     { 
-        src: "digitalis_aramkorok_2023_2024.jpg", 
-        title: "Digitális áramkörök (2023/2024) - Tanár: Antal Gábor - Feladat: Analóg és digitális jeleket különböző számrendszerekbe átszámol" 
+        src: "adatbaziskezeles_alapjai.jpg", 
+        title: "Adatbáziskezelés alapjai - Tanár: Major Sándor - Feladat: Egyszerű relációs adatbázist tervez" 
     },
     { 
-        src: "szamitogepes_szimulacio_2025.jpg", 
-        title: "Számítógépes szimuláció (2025) - Tanár: Antal Gábor - Feladat: Áramköri rajzok - CAD ismerete" 
+        src: "halozatkezeles.jpg", 
+        title: "Hálózatkezelés - Tanár: Major Sándor - Feladat: Elkészíti egy hálózat címzési tervét" 
     },
     { 
-        src: "elektronika_2024.jpg", 
-        title: "Elektronika (2024) - Tanár: Antal Gábor - Feladat: Mérési jegyzőkönyvet készít irodai és/vagy célszoftver használatával" 
+        src: "digitalis_aramkorok.jpg", 
+        title: "Digitális áramkörök - Tanár: Antal Gábor - Feladat: Analóg és digitális jeleket különböző számrendszerekbe átszámol" 
     },
     { 
-        src: "robottechnika_2025.jpg", 
-        title: "Robottechnika CAD/CAM (2025) - Tanár: Antal Gábor - Feladat: Tervező programmal NYÁK-ot tervez - CAD" 
+        src: "szamitogepes_szimulacio.jpg", 
+        title: "Számítógépes szimuláció - Tanár: Antal Gábor - Feladat: Áramköri rajzok- CAD ismerete" 
     },
     { 
-        src: "munkavallaloi_2026.jpg", 
-        title: "Munkavállalói idegen nyelven (2026) - Tanár: Dr. Rosenberg Daniel James - Feladat: Önéletrajz készítése informatikai programok használatával" 
+        src: "elektronika.jpg", 
+        title: "Elektronika - Tanár: Antal Gábor - Feladat: Mérési jegyzőkönyvet készít irodai és/vagy célszoftver használatával, Méréssel meghatározza kondenzátor kapacitását" 
     },
     { 
-        src: "programozas_alapjai_2025.jpg", 
-        title: "Programozás alapjai (2025) - Tanár: Korom Károly - Feladat: Program leírásokat készítése, programozási nyelv és környezet választása" 
+        src: "robottechnika_cad_cam.jpg", 
+        title: "Robottechnika CAD/CAM - Tanár: Antal Gábor - Feladat: Tervező programmal NYÁK-ot tervez-CAD" 
     },
     { 
-        src: "adatbazis_masolat.jpg", 
-        title: "Adatbáziskezelés alapjai (Ismétlés/Másik félév) - Tanár: Major Sándor - Feladat: Egyszerű relációs adatbázist tervez" 
+        src: "munkavallaloi_idegen_nyelven.jpg", 
+        title: "Munkavállalói idegen nyelven - Tanár: Dr. Rosenberg Daniel James - Feladat: Önéletrajz készítése (önéletrajz készítő informatikai programok használatával)" 
     },
     { 
-        src: "halozatkezeles_masolat.jpg", 
-        title: "Hálózatkezelés (Másik verzió) - Tanár: Major Sándor - Feladat: Elkészíti egy hálózat címzési tervét" 
+        src: "programozas_alapjai.jpg", 
+        title: "Programozás alapjai - Tanár: Korom Károly - Feladat: Program leírásokat készítése, programozási nyelv és környezet választása és használat" 
     }
 ];
 
