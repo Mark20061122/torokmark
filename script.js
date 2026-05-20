@@ -1,9 +1,18 @@
-// Képek a galériához - ide töltsd majd be a sajátjaidat!
+// Képek a galériához - Kizárólag a saját konzultációs lapok és a logó
 const images = [
-    { src: "https://picsum.photos/1000/800?random=1", title: "Szakmai Projekt 1" },
-    { src: "https://picsum.photos/1000/800?random=2", title: "Gyakorlati munka" },
-    { src: "https://picsum.photos/1000/800?random=3", title: "Bánki Emlékverseny" },
-    { src: "banki logo.jpg", title: "Iskolánk logója" }
+    { src: "img20260520_11124546.jpg", title: "Digitális áramkörök - Számrendszerek átszámítása" },
+    { src: "img20260520_11142029.jpg", title: "Számítógépes szimuláció - Áramköri rajzok (CAD)" },
+    { src: "img20260520_11152980.jpg", title: "Elektronika - Kondenzátor kapacitás mérése" },
+    { src: "img20260520_11175545.jpg", title: "Robottechnika CAD/CAM - NYÁK tervezés" },
+    { src: "img20260520_11185160.jpg", title: "Munkavállalói idegen nyelven - Önéletrajz készítése" },
+    { src: "img20260520_11194857.jpg", title: "Programozás alapjai - Programleírások és környezetek" },
+    { src: "img20260520_11204337.jpg", title: "PLC programozás - PLC típusok jellemzői" },
+    { src: "img20260520_11214395.jpg", title: "Programfejlesztés - Eseményvezérelt GUI alkalmazás" },
+    { src: "img20260520_11230540.jpg", title: "Mikrovezérlő programozás - I/O elemek használata" },
+    { src: "img20260520_11240201.jpg", title: "IoT - IoT eszközök kezelése" },
+    { src: "img20260520_11250834.jpg", title: "Adatbáziskezelés alapjai - Egyszerű relációs adatbázis tervezése" },
+    { src: "img20260520_11260227.jpg", title: "Hálózatkezelés - Hálózati címzési terv készítése" },
+    { src: "banki logo.jpg", title: "Iskolánk logója (Bánki Donát Technikum)" }
 ];
 
 let currentIndex = 0;
