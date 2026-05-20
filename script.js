@@ -24,27 +24,27 @@ const images = [
          
     },
     { 
-        src: "digitalis_aramkorok.png", 
+        src: "digitalis_aramkorok_2023_2024.png", 
         
     },
     { 
-        src: "szamitogepes_szimulacio.png", 
+        src: "szamitogepes_szimulacio_2025.png", 
          
     },
     { 
-        src: "elektronika.png", 
+        src: "elektronika_2024.png", 
          
     },
     { 
-        src: "robottechnika_cad_cam.png", 
+        src: "robottechnika_2025.png", 
         
     },
     { 
-        src: "munkavallaloi_idegen_nyelven.png", 
+        src: "munkavallaloi_2026.png", 
         
     },
     { 
-        src: "programozas_alapjai.png", 
+        src: "programozas_alapjai_2025.png", 
          
     }
 ];
