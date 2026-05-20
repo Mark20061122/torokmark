@@ -1,51 +1,51 @@
 // Képek a galériához - Mind a 12 egyedi konzultációs lap pontos adatai
 const images = [
     { 
-        src: "mikrovezerlo_programozas.jpg", 
+        src: "mikrovezerlo_programozas.png", 
         title: "Mikrovezérlő programozás - Tanár: Major Sándor - Feladat: Mikrovezérlő felépítése, Bemeneti és kimeneti elemek használata" 
     },
     { 
-        src: "programfejlesztes.jpg", 
+        src: "programfejlesztes.png", 
         title: "Programfejlesztés - Tanár: Major Sándor - Feladat: Eseményvezérelt, grafikus felhasználói felületű alkalmazást készít" 
     },
     { 
-        src: "plc_programozas.jpg", 
+        src: "plc_programozas.png", 
         title: "PLC programozás - Tanár: Horváth Ferenc - Feladat: Ismeri a különböző típusú PLC-k jellemzőit" 
     },
     { 
-        src: "iot_tantargy.jpg", 
+        src: "iot_tantargy.png", 
         title: "IoT tantárgy - Tanár: Major Sándor - Feladat: IoT eszközök kezelése" 
     },
     { 
-        src: "adatbaziskezeles_alapjai.jpg", 
+        src: "adatbaziskezeles_alapjai.png", 
         title: "Adatbáziskezelés alapjai - Tanár: Major Sándor - Feladat: Egyszerű relációs adatbázist tervez" 
     },
     { 
-        src: "halozatkezeles.jpg", 
+        src: "halozatkezeles.png", 
         title: "Hálózatkezelés - Tanár: Major Sándor - Feladat: Elkészíti egy hálózat címzési tervét" 
     },
     { 
-        src: "digitalis_aramkorok.jpg", 
+        src: "digitalis_aramkorok.png", 
         title: "Digitális áramkörök - Tanár: Antal Gábor - Feladat: Analóg és digitális jeleket különböző számrendszerekbe átszámol" 
     },
     { 
-        src: "szamitogepes_szimulacio.jpg", 
+        src: "szamitogepes_szimulacio.png", 
         title: "Számítógépes szimuláció - Tanár: Antal Gábor - Feladat: Áramköri rajzok- CAD ismerete" 
     },
     { 
-        src: "elektronika.jpg", 
+        src: "elektronika.png", 
         title: "Elektronika - Tanár: Antal Gábor - Feladat: Mérési jegyzőkönyvet készít irodai és/vagy célszoftver használatával, Méréssel meghatározza kondenzátor kapacitását" 
     },
     { 
-        src: "robottechnika_cad_cam.jpg", 
+        src: "robottechnika_cad_cam.png", 
         title: "Robottechnika CAD/CAM - Tanár: Antal Gábor - Feladat: Tervező programmal NYÁK-ot tervez-CAD" 
     },
     { 
-        src: "munkavallaloi_idegen_nyelven.jpg", 
+        src: "munkavallaloi_idegen_nyelven.png", 
         title: "Munkavállalói idegen nyelven - Tanár: Dr. Rosenberg Daniel James - Feladat: Önéletrajz készítése (önéletrajz készítő informatikai programok használatával)" 
     },
     { 
-        src: "programozas_alapjai.jpg", 
+        src: "programozas_alapjai.png", 
         title: "Programozás alapjai - Tanár: Korom Károly - Feladat: Program leírásokat készítése, programozási nyelv és környezet választása és használat" 
     }
 ];
